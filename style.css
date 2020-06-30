@@ -7,16 +7,16 @@
 }
 
 body {
-	background-image: url(images/background.jpg);
+	background-image: url(images/background.jpg); /* фон */
 }
 
 ul {
-    list-style-image: url(images/label.png); /* Изображение маркера */
-    margin-left: 75px;
+    list-style-image: url(images/label.png); /* картинка вместо маркера */
+    margin-left: 75px; 
    }
 
 .contentleft {
-	position: relative;
+	position: relative; /* позиционируется с потоком, смещение относительно top, right ...*/
 }
 
 .sidebar{
@@ -24,7 +24,7 @@ ul {
   height: 100%;
   background-image: url(images/background2.jpg);
   padding: 30px 0px;
-  position: fixed;
+  position: fixed; /* удаляется из потока, не меняет местоположение при прокрутке */
 }
 
 .sidebar h2 {
@@ -64,11 +64,11 @@ ul {
   color: #fff;
 }
 .webnetwork {
-	position: absolute;
+	position: absolute; /* элемент удаляется из потока */
   bottom: 15px;
   left: 50%;
-  transform: translateX(-50%);
-  display: flex; 
+  transform: translateX(-50%); /* перемещение элемента по оси Х с его начальной точки */
+  display: flex;
 }
 
 .webnetwork a {
