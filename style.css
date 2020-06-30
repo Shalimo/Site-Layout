@@ -71,10 +71,38 @@ ul {
   display: flex;
 }
 
-.webnetwork a {
+.webnetwork a { 
 	padding: 5px;
 	color: #bdb8d7;
 }
 
+.maincontent{
+	position: fixed; /* Данный блок независим от сайда */
+	margin-top: 350px;
+  width: 100%;
+  margin-left: 600px;
+}
+.maincontent .main{
+  padding: 20px;
+  color: white;
+  
+}
 
+.but {
+	margin-left: 150px;
+}
 
+.button {
+	
+	background-color: #bdb8d7;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  
+}
