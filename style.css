@@ -141,3 +141,80 @@ h3 {
 	padding-right: 2%; /* отступы меджу картинками */
 
 }
+
+.contacts_content{
+	position: fixed; /* Данный блок независим от сайда */
+	margin-top: 200px;
+  width: 100%;
+  margin-left: 600px;
+}
+.contacts_content .contacts{
+  padding: 20px;
+  color: white;
+  
+}
+
+.contacts h1 {
+	margin-left: 200px;
+	padding-bottom: 20px;
+}
+
+.contacts h3 {
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+
+.form_group {
+	padding-right: 30px;
+}
+
+.name {
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding-right: 30px;
+}
+
+.email {	
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding-right: 30px;
+}
+
+.message {
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding-right: 330px;
+}
+
+.send_button {
+	margin-top: 2%;
+	margin-left: 170px;
+}
+
+.sendbutton {	
+	background-color: #bdb8d7;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white; 
+}
